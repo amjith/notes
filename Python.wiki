@@ -1,0 +1,10 @@
+    Debugger
+    * xpdb - http://heather.cs.ucdavis.edu/~matloff/xpdb.html
+        - Start the server in some terminal window:
+            python /usr/local/xpdb/Xsrcwin.py port_number
+        - Use 2000 for port_number
+        - Start your PDB sessions from the directory containing your debuggee.
+            python /usr/local/xpdb/Xpdb.py debuggee_full_path_name debuggee_command_line_arguments
+        - Within PDB, issue the command
+            startsrcwin port_number
+        - Now use PDB as usual. Your source code appears in the server window, with your current line marked by 'N'.

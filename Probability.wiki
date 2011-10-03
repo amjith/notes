@@ -1,0 +1,10 @@
+    * Probability of independent events is multiplication.
+        - Prob of exactly HTH in 3 flips = (1/2) * (1/2) * (1/2) = (1/8)
+        - Prob of unfair coin (H =60%) getting a P(HTH) = (.6)*(.4)*(.6) = .144
+    * Combinatorics
+        - Prob of exactly 3 heads in 5 flips P(3) = ((5*4*3)/(3*2*1))/32
+            - First head can be in 5 places, second head in 4 places, third head in 3 places. 3! ways to swap three coins (# of duplicates). 
+            - H1H2H3T1T2 == H2H1H3T1T2 although the H1 and H2 are swapped they are treated the same. That is counted as duplicate.
+            - 32 total outcomes. So ((5*4*3)/(3*2))/32
+        - nCk = n!/((n-k)!k!) == Given n possible outcome how to choose exactly k outcomes.
+        - Prob of at least 2 heads in 5 flips = P(2) + P(3) + P(4) + P(5) =  1 - P(0) - P(1) = 1 - 

@@ -1,0 +1,3 @@
+    * Implemented the History saving for every enter key.
+    * Filtered up arrow. 
+    * i-Reverse.
